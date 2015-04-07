@@ -41,6 +41,7 @@ function! airline#init#bootstrap()
         \ 's'  : 'SELECT',
         \ 'S'  : 'S-LINE',
         \ '' : 'S-BLOCK',
+        \ 't' : 'TERM',
         \ }, 'keep')
 
   call s:check_defined('g:airline_theme_map', {})
